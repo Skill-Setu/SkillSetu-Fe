@@ -1,6 +1,11 @@
+# SkillSetu Description (Under Development)
+SkillSetu is an innovative, AI-powered platform designed to bridge the skill gap in rural India by *empowering farmers*, *students*, and local communities with personalized *learning roadmaps*, *job connections*, and *industry-ready training*. Leveraging technologies like *LangChain*, *Gemini API*, and the *MERN stack*, SkillSetu offers interactive AI assistance, dynamic roadmap generation, and access to curated resources. It aims to bring together students, gram panchayats, industries, NGOs, and government bodies to build a self-sustaining skill ecosystem. With features like smart job portals, training access, and localized support, SkillSetu is a step toward inclusive, tech-enabled rural development.
 
-```markdown
-# SkillSetu – AI Roadmap Generator (Initial Release)
+
+
+# SkillSetu (Initial Release - TaskGenie: AI-Powered Task Management and Roadmap Generator)
+
+TaskGenie is an intelligent task management web application that helps you plan and complete your tasks efficiently. Whether you're learning something new, working on a project, or just need a clear roadmap to reach your goals, TaskGenie is here to help.
 
 This repository is part of **SkillSetu**, a visionary initiative to empower farmers, students, and rural communities through AI-powered skill development. This specific module enables users to interact with an AI model for personalized skill queries. The AI generates dynamic **learning roadmaps**, rendered using **Mermaid.js** diagrams. Each node in the roadmap is clickable, providing relevant learning resources for users to upskill effectively.
 
@@ -8,14 +13,14 @@ This repository is part of **SkillSetu**, a visionary initiative to empower farm
 
 ---
 
-## 🌐 Live Project Links
+## 🌐 Live/Github Project Links
 
 - 🔥 **Landing Page (Latest Version)**: [TaskGenieLandingPage](https://taskgenielandingpage.onrender.com/)  
   GitHub: [Landing Page Code](https://github.com/kingadarsh/TaskGenieLandingPage)
 
-- ⚙️ **Frontend (MERN)**: [TodoFrontEndFullStack](https://github.com/kingadarsh/TodoFrontEndFullStack/tree/main)  
-- 🧠 **AI Backend (Flask + LangChain + Gemini API)**: [Skill-Setu/AI](https://github.com/Skill-Setu/AI)  
-- 🗂 **Node.js Backend**: [TodoBackendFullStack](https://github.com/kingadarsh/TodoBackendFullStack/tree/main)
+- ⚙️ **Github Frontend (MERN)**: [TodoFrontEndFullStack](https://github.com/kingadarsh/TodoFrontEndFullStack/tree/main)  
+- 🧠 **Github : AI Backend (Flask + LangChain + Gemini API)**: [Skill-Setu/AI](https://github.com/Skill-Setu/AI)  
+- 🗂 **Github : Node.js Backend** : [TodoBackendFullStack](https://github.com/kingadarsh/TodoBackendFullStack/tree/main)
 
 ---
 
