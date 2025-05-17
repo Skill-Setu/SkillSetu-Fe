@@ -3,10 +3,14 @@ import AboutProject from "./components/AboutProject";
 import Features from "./components/Features";
 import SuccessStories from "./components/SuccessStories";
 import SponsorsAndPartners from "./components/SponsorsAndPartners";
+import { JoinPartners, JoinLearner } from "./components/JoinComponent"
+// 
 import { useState } from "react";
 import Logo from "./assets/LogoSkillSetu.png"
 import Moonlogo from "./assets/moon.svg"
 import twitter from "./assets/twitterimg.png"
+// 
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 import "./App.css"
 
@@ -145,10 +149,7 @@ const Footer = () => {
 };
 
 
-
-
-
-const App=()=>{
+const FirstPage=()=>{
   return(
     <>
     <Header/>
@@ -157,5 +158,26 @@ const App=()=>{
     </>
   )
 }
+
+
+const App=()=>{
+  return(
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<FirstPage/>}/>
+            <Route path="/signuppartner" element={<JoinPartners/>} />
+            <Route path="/joinlearner" element={<JoinLearner/>} />
+            
+            
+
+          
+        </Routes>
+      </BrowserRouter>
+
+    </>
+  )
+}
+
 
 export default App;

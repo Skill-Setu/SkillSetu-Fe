@@ -1,7 +1,11 @@
 import "../App.css";
 import landingImg from "../assets/LandingImg2.jpeg";
 
+// 
+import {useNavigate} from "react-router-dom"
+
 const LandingSection = () => {
+  const navigate=useNavigate();
   return (
     <>
       <div className="landing-section">
@@ -11,9 +15,8 @@ const LandingSection = () => {
 
             <h2>Empowering Bharat — हर गाँव, हर हाथ को हुनर</h2>
             <div className="Div1ButtonSec1">
-              <button>Become a Partner</button>
-              <button>Join as learner</button>
-              <button>Learn More</button>
+              <button onClick={()=>navigate("/signuppartner")}>Become a Partner</button>
+              <button onClick={()=>navigate("/joinlearner")}>Join as learner</button>
             </div>
           </div>
 
